@@ -127,14 +127,14 @@ echo "--------------------------------------------------------------------------
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - SlowDNS SSH             : ALL Port SSH"  | tee -a log-install.txt
-echo "   - OpenSSH                 : 22, 2253"  | tee -a log-install.txt
+echo "   - OpenSSH                 : 22, 2086, 80, 2253"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 990"  | tee -a log-install.txt
 echo "   - Stunnel5                : 443, 445"  | tee -a log-install.txt
 echo "   - Dropbear                : 443, 109, 143"  | tee -a log-install.txt
 echo "   - CloudFront Websocket    : "  | tee -a log-install.txt
 echo "   - SSH Websocket TLS       : 443"  | tee -a log-install.txt
-echo "   - SSH Websocket HTTP      : 8880"  | tee -a log-install.txt
-echo "   - Websocket OpenVPN       : 2086"  | tee -a log-install.txt
+echo "   - SSH Websocket HTTP      : 2086, 80, 8880"  | tee -a log-install.txt
+echo "   - Websocket OpenVPN       : 2087"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8000"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
 echo "   - Nginx                   : 89"  | tee -a log-install.txt
@@ -155,7 +155,7 @@ echo "   - XRAYS VLESS GRPC        : 2280"  | tee -a log-install.txt
 echo "   - OHP SSH                 : 8181"  | tee -a log-install.txt
 echo "   - OHP Dropbear            : 8282"  | tee -a log-install.txt
 echo "   - OHP OpenVPN             : 8383"  | tee -a log-install.txt
-echo "   - TrojanGo                : 2087"  | tee -a log-install.txt
+echo "   - TrojanGo                : 2089"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   >>> Server Information & Other Features"  | tee -a log-install.txt
 echo "   - Timezone                : Asia/Kuala_Lumpur (GMT +8)"  | tee -a log-install.txt
